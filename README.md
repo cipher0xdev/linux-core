@@ -9,6 +9,6 @@ Automating linux processes
 ```bash
 git clone https://github.com/cipher0xdev/linux-core.git
 cd linux-core
-chmod +x ./*
+sudo chmod +x ./*
 sudo ./main.sh
 ```
