@@ -10,5 +10,5 @@ Automating linux processes
 git clone https://github.com/cipher0xdev/linux-core.git
 cd linux-core
 sudo chmod +x ./*
-sudo ./main.sh
+./main.sh --help
 ```
