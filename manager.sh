@@ -1,7 +1,5 @@
 #!/bin/bash
 
-source "core.sh"
-
 # usage: dpkg_check "libname"
 dpkg_check() {
   dpkg -s $1 >/dev/null 2>&1 && installed=true || installed=false 
