@@ -5,7 +5,7 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
-# exemple of use: dpkg_check "libname"
+# usage: dpkg_check "libname"
 dpkg_check() {
   dpkg -s $1 >/dev/null 2>&1 && installed=true || installed=false 
 
