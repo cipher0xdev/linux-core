@@ -18,6 +18,7 @@ dpkg_check() {
   fi
 }
 
+# automatic compilation and configuration from a clone of a repository
 # usage: git_install "https://github.com/username/name.git" "name"
 git_install() {
   if ! git --version > /dev/null 2>&1; then
